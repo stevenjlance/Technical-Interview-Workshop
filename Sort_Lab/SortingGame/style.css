@@ -1,0 +1,94 @@
+#head, #foot {
+    background-color: brown;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+}
+
+#grades {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: large;
+}
+
+#grids {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    height: 100px;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+
+    background-color: lightskyblue;
+    color: lightskyblue;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+#hb {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#final {
+    display: flex;
+    align-items: center;
+}
+
+
+.is-visible {
+    color: black;
+} .is-empty {
+    background-color: lightgray;
+} .is-selected {
+    box-shadow: 5px 5px 10px black;
+}
+
+#icon {
+    position: relative;
+    color: black;
+    align-self: flex-end;
+    margin-right: 4px;
+} #icon:hover {
+    color: green;
+    font-size: large;
+    cursor: pointer;
+}
+
+#instructions {
+    max-width: 700px;
+}
+
+#legend {
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+#switch{
+    font-size: x-large;
+    padding: 0px;
+    margin: 0 0 0 20px;
+    border: none;
+    height: 1px;
+    width: 1px;
+}
+
+.hide {
+    display: none;
+}

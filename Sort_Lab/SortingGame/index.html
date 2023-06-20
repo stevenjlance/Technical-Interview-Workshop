@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="head" class="hero">
+      <div class="hero-body"></div>
+    </header>
+    <section id="hero" class="section">
+      <h1 class="title">Sort the Cards</h1>
+      <p id="instructions" class="subtitle">Sort the squares from least to greatest. Click on the '👀' to see the number. You can only see 3 at a time. Click on the card and move it to an available storage spot. When you're done, check your answer to see your final score. Hint: The fewer moves, the better.</p>
+      <div id="controls">
+        <input id="add-bucks" type="checkbox" class="mr-3" />
+        <p id="label">More Storage</p>
+        <button id="reset" class="button ml-5">Reset Numbers</button>
+      </div>
+    </section>
+    <section id="grades" class="section">
+      <div class="grade">Observations ($2) = <span id="obs">0</span></div>
+      <div class="grade">Cycles ($8) = <span id="cyc">0</span></div>
+      <div class="grade">Moves ($1) = <span id="mvs">0</span></div>
+      <div class="grade">Storage ($0.10) = <span id="bku">1</span></div>
+    </section>
+    <section id="grids" class="section">
+      <div class="grid mainGrid"></div>
+      <div class="holding-zone">
+        <p id="hb" class="subtitle">Storage <button class="button hide" id="switch">🔄</button></p>
+        <div id="hold-boxes" class="grid">
+          <div class="card is-empty">
+            <div class="card-content hold"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="final" class="section">
+      <button id="check-final" class="button mr-5">Check Answer</button>
+      <h1 id="final-grade" class="subtitle">
+        Final Grade = <span id="fin">0</span>
+      </h1>
+    </section>
+
+    <section id="legend">
+        <table class="table mt-0">
+            <tbody>
+                <tr>
+                    <td> > 200 </td>
+                    <td> You need an algorithm </td>
+                </tr>
+                <tr>
+                    <td> < 200 </td>
+                    <td> Good! </td>
+                </tr>
+                <tr>
+                    <td> < 150 </td>
+                    <td> Great! </td>
+                </tr>
+                <tr>
+                    <td> < 100 </td>
+                    <td> How!? </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer id="foot" class="footer"></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
