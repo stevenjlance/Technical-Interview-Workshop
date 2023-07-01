@@ -1,7 +1,6 @@
 # Write a function that counts to a value n
 # e.g. count(100) counts to 100
 
-
 def loopCount(n):
 	for i in range(n + 1):
 		print(i)
