@@ -102,7 +102,7 @@ The total number of comparisons and swaps can be approximated by the sum of the 
 Note that it may be less than n^2, but in the worst scenarios it is n^2
 '''
 
-# 5. One final example. This algorithm is designed to give you all permutations of a given list. How many lines of code run when you pass in a list of length 3?
+# 5. One final example. This algorithm is designed to give you all permutations of a given list. How many lines of code run when you pass in a list of length 3? Length 5? Length 100 (DON'T DO THIS)?
 combo = [1, 2, 3]
 def permutation(arr):
     if len(arr) == 0:
@@ -121,5 +121,5 @@ def permutation(arr):
 '''
 This runs 9 times or a 3! (3 factorial) amount of times. 
 
-As the list grows, this becomes an incredibly ineficient algorithm. A list of 5 elements will require the code above to be executed 120 times.
+As the list grows, this becomes an incredibly inefficient algorithm. A list of 5 elements will require the code above to be executed 120 times.
 '''
