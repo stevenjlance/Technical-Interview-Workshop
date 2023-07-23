@@ -8,7 +8,7 @@ def get_value(t):
 	return current_node["value"]
 
 print("---------DEMO---------")
-print(get_value(tree))
+# print(get_value(tree))
 
 # Mild
 
@@ -20,11 +20,11 @@ def get_min(tree):
 	current_value = tree["value"]
 	left_min = get_min(tree["left"])
 	right_min = get_min(tree["right"])
-	print(left_min, right_min)
+	print(current_value, left_min, right_min)
 	return min(current_value, left_min, right_min)
 
 print("---------QUESTION 1---------")
-print(get_min(tree))
+# print(get_min(tree))
 
 # 2. Write a function that searches for a given value n in a tree.
 # Should return true if the value exists
@@ -41,7 +41,6 @@ def find(n, t):
 		else:
 			current_node = current_node["left"]
 	return False
-	print(t.items())
 
 print("---------QUESTION 2 (LOOPS)---------")
 print(find(3, tree))
