@@ -23,10 +23,10 @@ print(head_value)
 
 # min_heap can be represented as the tree shown below
 '''
-        2
-			/   \
+          2
+	    /   \
 	   3     6
-		/ \   / \
+	  / \   / \
 	 8  10 15 18
 '''
 # How do the left and right index values relate to the index value of their parent?
