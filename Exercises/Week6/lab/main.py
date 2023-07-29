@@ -124,3 +124,16 @@ def goTo(target_folder, folder):
 # 10. Write a function that finds the lowest common ancestor folder that holds the 2 inputted files
 # For example: common_ancestor('ny_invoice.pdf', 'la_invoice.pdf) => 'Finances'
 # For example: common_ancestor('roster_screenshot.jpg', 'New_Years2023') => 'Desktop'
+
+def solution(t, s):
+    if t is None:
+        return s == 0
+    s = s - t.value
+    if t.left is None and t.right is None:
+        return s == 0
+    elif t.left is not None and t.right is not None:
+        return solution(t.left, s) or solution(t.right, s)
+    elif t.left is None and t.right is not None:
+        return solution(t.right, s)
+    elif t.left is not None and t.right is None:
+        return solution(t.left, s)
