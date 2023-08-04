@@ -52,8 +52,8 @@ def check_loop(grid, node, visited = set()):
 			return True
 	return False
 
-print(has_cycle(grid1)) #False
-print(has_cycle(grid2)) #True
+# print(has_cycle(grid1)) #False
+# print(has_cycle(grid2)) #True
 
 
 #[Spicy]
@@ -71,8 +71,8 @@ def get_path(grid, start, end):
 	dfs(start, [start])
 	return paths
 
-print(get_path(grid1, 0, 4)) # [[0, 1, 4]]
-print(get_path(grid1, 4, 5)) # [[4, 6, 5], [4, 3, 5], [4, 3, 2, 5], [4, 3, 6, 5]]
+# print(get_path(grid1, 0, 4)) # [[0, 1, 4]]
+# print(get_path(grid1, 4, 5)) # [[4, 6, 5], [4, 3, 5], [4, 3, 2, 5], [4, 3, 6, 5]]
 
 
 from sample_data import grid5, grid6

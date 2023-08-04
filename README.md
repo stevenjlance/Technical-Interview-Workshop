@@ -10,4 +10,4 @@
 | 6 | Trees | [Slides](https://docs.google.com/presentation/d/1RcMb7RAhUBpXy88Frvrn8Lhkeg9_dKEWJIXYBcQP8gw/edit?usp=sharing)<br> [Solutions](./Exercises/Week6) |
 | 7 | Heaps, Stacks, and Queues | [Slides](https://docs.google.com/presentation/d/11fPwym_i12NHSUyUMa6aq1AynhRPRcTgu8DrzjM-gRQ/edit?usp=sharing)<br> [Solutions](./Exercises/Week7) |
 | 8 | Graphs | [Slides](https://docs.google.com/presentation/d/1iPHlzExqfRnSyySdgukUiYAXBh3viBbvLbM5iQEcg7E/edit?usp=sharing)<br> [Solutions](./Exercises/Week8) |
-| 9 | Binary, Hex, and Bitwise | [Slides]()<br> [Solutions](./Exercises/Week9) |
+| 9 | Binary, Hex, and Bitwise | [Slides](https://docs.google.com/presentation/d/1CosK-3wpk6AoZu_WoZMhCYCKYasL7Pcpm8MCrnVT0lw/edit#slide=id.g25573e299c0_0_0)<br> [Solutions](./Exercises/Week9) |
